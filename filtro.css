@@ -1,0 +1,30 @@
+input {
+  width: 500px ;
+  height: 40px;
+  font-size: 18px;
+  /* se agrego para separar el input de otros elementos */
+  margin-bottom: 10px;
+}
+
+#lista-de-productos {
+  display: flex
+ 
+
+}
+
+.producto {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px; /* se añadio padding*/
+}
+
+.producto img {
+  width: 70%;
+  height: auto
+
+}
